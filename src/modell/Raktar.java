@@ -5,6 +5,7 @@
  */
 package modell;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -13,7 +14,7 @@ import java.util.List;
  *
  * @author vizsgaszf
  */
-public class Raktar {
+public class Raktar implements Serializable {
     private ArrayList<Elelmiszer> elelmiszerek;
 
     
